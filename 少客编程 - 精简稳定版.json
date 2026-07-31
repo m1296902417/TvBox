@@ -1,7 +1,15 @@
 {
-  "spider": "https://ghproxy.net/https://raw.githubusercontent.com/m1296902417/TvBox/main/jar/custom_spider.jar",
+  "spider": "",
   "wallpaper": "",
-  "lives": [],
+  "lives": [
+    {
+      "name": "直播源",
+      "type": 0,
+      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "epg": ""
+    }
+  ],
   "sites": [
     {
       "key": "豆瓣",
@@ -56,7 +64,7 @@
       "name": "🟢 B 站",
       "type": 3,
       "api": "csp_Bili",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 0
     },
     {
@@ -82,39 +90,6 @@
       "api": "csp_JianPian",
       "searchable": 1,
       "changeable": 0
-    },
-    {
-      "key": "低端",
-      "name": "🔵 低端影视",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "快看",
-      "name": "🔵 快看影视",
-      "type": 3,
-      "api": "csp_Kuaikan",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "追剧喵",
-      "name": "🔵 追剧喵",
-      "type": 3,
-      "api": "csp_Zjm",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "农民",
-      "name": "🔵 农民影视",
-      "type": 3,
-      "api": "csp_Nmys",
-      "searchable": 1,
-      "changeable": 0,
-      "jar": "https://ghproxy.net/https://raw.githubusercontent.com/m1296902417/TvBox/main/jar/fty.jar"
     }
   ],
   "parses": [
@@ -122,39 +97,15 @@
       "name": "Web 聚合",
       "type": 3,
       "url": "Demo"
-    },
-    {
-      "name": "Json 并发",
-      "type": 2,
-      "url": "Parallel"
-    },
-    {
-      "name": "超级并发",
-      "type": 2,
-      "url": "Sequence"
     }
   ],
   "rules": [],
   "flags": [
     "youku",
     "qq",
-    "QQ",
     "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "tudou",
-    "pptv",
-    "PPTV",
     "mgtv",
-    "CL4K",
-    "renrenmi",
-    "ltnb",
-    "bilibili",
-    "1905",
-    "xigua"
+    "bilibili"
   ],
-  "ijk": [],
-  "ads": [],
-  "warningText": "少客编程：仅限测试、学习使用"
+  "warningText": "少客编程提示：仅学习测试使用，如有侵权请联系删除：16649911271"
 }
