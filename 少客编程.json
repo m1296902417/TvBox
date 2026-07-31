@@ -82,14 +82,6 @@
       "api": "csp_JianPian",
       "searchable": 1,
       "changeable": 0
-    },
-    {
-      "key": "低端",
-      "name": "🔵 低端影视",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "searchable": 1,
-      "changeable": 0
     }
   ],
   "parses": [
@@ -107,5 +99,6 @@
     "mgtv",
     "bilibili"
   ],
-  "warningText": "少客编程：仅限测试、学习使用"
+  "warningText": "少客编程：仅限测试、学习使用",
+  "ads": []
 }
