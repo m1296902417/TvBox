@@ -13,7 +13,7 @@
     },
     {
       "key": "360 影视",
-      "name": "🟢360 影视",
+      "name": "🟢 360 影视",
       "type": 3,
       "api": "csp_SP360",
       "searchable": 1,
@@ -53,7 +53,7 @@
     },
     {
       "key": "B 站",
-      "name": "🟢B 站",
+      "name": "🟢 B 站",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
@@ -69,7 +69,7 @@
     },
     {
       "key": "Lib",
-      "name": "🔵LibVio",
+      "name": "🔵 LibVio",
       "type": 3,
       "api": "csp_Lib",
       "searchable": 1,
@@ -85,9 +85,52 @@
     },
     {
       "key": "低端",
-      "name": "🔵 低端",
+      "name": "🔵 低端影视",
       "type": 3,
       "api": "csp_Ddrk",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "夸克",
+      "name": "☁️ 夸克网盘",
+      "type": 3,
+      "api": "csp_Quark",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "夹"
+    },
+    {
+      "key": "UC",
+      "name": "☁️ UC 网盘",
+      "type": 3,
+      "api": "csp_Uc",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "夹"
+    },
+    {
+      "key": "百度",
+      "name": "☁️ 百度网盘",
+      "type": 3,
+      "api": "csp_Baidu",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "夹"
+    },
+    {
+      "key": "云盘",
+      "name": "☁️ 云盘资源",
+      "type": 3,
+      "api": "csp_Yunpan",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "找资源",
+      "name": "🔍 找资源",
+      "type": 3,
+      "api": "csp_Zhaozy",
       "searchable": 1,
       "changeable": 0
     }
@@ -105,7 +148,10 @@
     "qq",
     "iqiyi",
     "mgtv",
-    "bilibili"
+    "bilibili",
+    "quark",
+    "uc",
+    "baidu"
   ],
   "warningText": "少客编程：仅限测试、学习使用",
   "ads": []
